@@ -1,0 +1,10 @@
+<h2>TODO LIST</h2>
+<ul style="list-style:none;">
+  <li *ngFor="let item of todolist">
+    <input type="checkbox"[(ngModel)]="item.completed">{{item.task}}
+    <div *ngIf="item.completed">You completed {{item.task}}<br>{{item.message}}<br>
+    <span *ngIf="item.task==='Lunch'">Lunch1:{{item.l1}}<br><br>Lunch2:{{item.l2}}<br><br></span>
+    <span *ngIf="item.task==='Swimming'">Venue1:{{item.venue1}}<br><br>Venue2:{{item.venue2}}</span>
+    </div>
+  </li>
+</ul>
