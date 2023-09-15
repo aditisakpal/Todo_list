@@ -2,4 +2,4 @@
 This project creates a list of activities using Angular CLI
 
 ## Development Server
-Run 'ng serve' for dev server and navigate to 'https://localhost:4200'
+Run `ng serve` for dev server and navigate to `https://localhost:4200`
